@@ -49,6 +49,7 @@
   "release": {
     "prepare": [
       "@semantic-release/changelog",
+      "@semantic-release/npm",
       {
         "path": "@semantic-release/git",
         "assets": ["dist/**/*.{js,css}", "docs", "package.json"],
